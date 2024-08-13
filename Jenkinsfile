@@ -2,7 +2,7 @@ pipeline {
     agent any
  
     tools {
-        maven 'Maven' // This should match the name of your Maven installation in Jenkins Global Tool Configuration
+        maven 'maven' // This should match the name of your Maven installation in Jenkins Global Tool Configuration
     }
  
     environment {
